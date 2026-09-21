@@ -18,7 +18,7 @@ export default defineConfig(async ({ mode }) => {
   }
 
   return {
-    base:'/tinahsafaris/',
+    base:'/test/',
     plugins,
     envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
     define: processEnvDefines,
